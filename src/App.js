@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import TransactionLog from './TransactionLog';
+import TransactionLog from './components/TransactionLog';
 
 function App() {
   return (
