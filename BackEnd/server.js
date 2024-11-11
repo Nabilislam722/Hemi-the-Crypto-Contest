@@ -1,11 +1,10 @@
 const express = require('express');
-const cors = require('cors');
 const fetchTransactions = require('./fetchTransactions');
+const cors = require('cors');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
-
-app.use(cors());
+ const PORT = 5000;
+app.use(cors());  // Enable CORS for all routes
 
 app.get('/api/transactions', async (req, res) => {
   try {
@@ -17,5 +16,5 @@ app.get('/api/transactions', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`Server is running on https://hemi-the-crypto-contest.vercel.app`);
 });
