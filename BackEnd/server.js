@@ -17,5 +17,5 @@ app.get('/api/transactions', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running on https://hemi-the-crypto-contest.vercel.app`);
+  console.log(`Server is running on https://hemi-the-crypto-contest-c6xl.vercel.app`);
 });
