@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     const fetchTransactions = async () => {
       try {
-        const response = await axios.get('https://hemi-the-crypto-contest.vercel.app');
+        const response = await axios.get('https://hemi-the-crypto-contest-dws5h9jha-nabilislam722s-projects.vercel.app/api/transactions');
         setTransactions(response.data);
       } catch (error) {
         console.error("Error fetching transactions:", error);
